@@ -1,0 +1,11 @@
+1. python3 -m pytest multiple_simple_test.py -v -k 'add'
+2. python3 -m pytest multiple_simple_test.py -v -k 'add or string'
+3. python3 -m pytest multiple_simple_test.py::test_type -v
+4. python3 -m pytest multiple_simple_test.py -v -k 'add and string'
+5. python3 -m pytest multiple_simple_test.py -v -x - '-x' to stop test progress when one of the tests failure
+6. python3 -m pytest multiple_simple_test.py -v -x --maxfail=2 - '-x --maxfail=2' to stop test progress if more than 2 tests failure
+7. python3 -m pytest multiple_simple_test.py -v -m number - marks
+8. python3 -m pytest multiple_simple_test.py -q - quiet mod
+9. python3 -m pytest multiple_simple_test.py --pdb - run with debugger, 'cont' - to continue
+10. python3 -m pytest multiple_simple_test.py --trace - run tests with debugger for all separated tests
+11.

@@ -1,4 +1,4 @@
-import src.call as cal
+import src.cal as cal
 
 
 def test_add():
